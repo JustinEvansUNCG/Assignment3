@@ -23,8 +23,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  *
- * @author sunny & Justin Evans
- * Removed parts not done by me
+ * @author Justin Evans
+ * 
  */
 @Controller
 @RequestMapping("/speedy")
@@ -32,7 +32,7 @@ public class MainController {
 
 
     /**
-     * Takes the first 20 creatures from the game Pokemon and makes them available at the endpoint, alongside the path to get more information on a specific Pokemon
+     * methods below call my html files, making them available at specific urls
      * 
      * @return json array
      */
